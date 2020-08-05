@@ -13,7 +13,7 @@ async function main() {
         headers: {
             'Content-Type': 'application/json'
         },
-        json: { data },
+        json: data,
         responseType: 'json'
     });
 }
